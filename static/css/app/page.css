@@ -1,0 +1,446 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/AboutUs/AboutUs.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.AboutUs_container__hhm2E{
+    background-color: #1f1f1f;
+   
+    background-image: url(/_next/static/media/background2.da989712.jpg);
+    /* Set background properties to cover the entire body */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    /* Optionally, you can set a fixed background attachment */
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/Layout/Footer/Footer.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_container__Ij67E{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 10px 0;
+}
+
+.Footer_social__VTJBn{
+    color: #f0beff;
+    text-shadow: 1px 1px 0px #f61aba;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_main__GlU4n {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.page_description__86bsR {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
+.page_description__86bsR a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.page_description__86bsR p {
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+}
+
+.page_code__9lUUd {
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+.page_grid__f5Kdy {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25%, auto));
+  max-width: 100%;
+  width: var(--max-width);
+}
+
+.page_card__QV0Om {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+
+.page_card__QV0Om span {
+  display: inline-block;
+  transition: transform 200ms;
+}
+
+.page_card__QV0Om h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.page_card__QV0Om p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 30ch;
+}
+
+.page_center__5oHG7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
+}
+
+.page_center__5oHG7::before {
+  background: var(--secondary-glow);
+  border-radius: 50%;
+  width: 480px;
+  height: 360px;
+  margin-left: -400px;
+}
+
+.page_center__5oHG7::after {
+  background: var(--primary-glow);
+  width: 240px;
+  height: 180px;
+  z-index: -1;
+}
+
+.page_center__5oHG7::before,
+.page_center__5oHG7::after {
+  content: '';
+  left: 50%;
+  position: absolute;
+  filter: blur(45px);
+  transform: translateZ(0);
+}
+
+.page_logo__7fc9l {
+  position: relative;
+}
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .page_card__QV0Om:hover {
+    background: rgba(var(--card-rgb), 0.1);
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  }
+
+  .page_card__QV0Om:hover span {
+    transform: translateX(4px);
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .page_card__QV0Om:hover span {
+    transform: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .page_content__kDoxQ {
+    padding: 4rem;
+  }
+
+  .page_grid__f5Kdy {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 320px;
+    text-align: center;
+  }
+
+  .page_card__QV0Om {
+    padding: 1rem 2.5rem;
+  }
+
+  .page_card__QV0Om h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .page_center__5oHG7 {
+    padding: 8rem 0 6rem;
+  }
+
+  .page_center__5oHG7::before {
+    transform: none;
+    height: 300px;
+  }
+
+  .page_description__86bsR {
+    font-size: 0.8rem;
+  }
+
+  .page_description__86bsR a {
+    padding: 1rem;
+  }
+
+  .page_description__86bsR p,
+  .page_description__86bsR div {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+  }
+
+  .page_description__86bsR p {
+    align-items: center;
+    inset: 0 0 auto;
+    padding: 2rem 1rem 1.4rem;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
+    background: linear-gradient(
+      to bottom,
+      rgba(var(--background-start-rgb), 1),
+      rgba(var(--callout-rgb), 0.5)
+    );
+    background-clip: padding-box;
+    -webkit-backdrop-filter: blur(24px);
+            backdrop-filter: blur(24px);
+  }
+
+  .page_description__86bsR div {
+    align-items: flex-end;
+    pointer-events: none;
+    inset: auto 0 0;
+    padding: 2rem;
+    height: 200px;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgb(var(--background-end-rgb)) 40%
+    );
+    z-index: 1;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .page_grid__f5Kdy {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .page_vercelLogo__rOY_u {
+    filter: invert(1);
+  }
+
+  .page_logo__7fc9l {
+    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}
+
+@keyframes page_rotate__durgN {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/Contacts/Contacts.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.Contacts_container__9ABtp{
+    padding: 100px 0px  ;
+    color:white;
+    background-image: url(/_next/static/media/background3.314cd775.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    /* Optionally, you can set a fixed background attachment */
+    background-attachment: fixed;
+}
+
+.Contacts_grid__kfGoG {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns by default */
+    grid-gap: 25px;
+    gap: 25px;
+    /* Responsive design for phones */
+    @media screen and (max-width: 767px) {
+        grid-template-columns: 1fr; /* 1 column for screens up to 767px wide */
+    }
+    
+    /* Add any additional styling or adjustments as needed */
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/Layout/Header/Header.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+
+@keyframes Header_slideIn__RLQ9M {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .Header_headerSlideIn__C6acN {
+    animation: Header_slideIn__RLQ9M 0.5s ease-in;
+
+  }
+
+
+
+
+@media screen and (max-width: 799px) {
+  .Header_renderIfPC__aDaXG {
+display: none;
+  }
+
+
+
+}@media screen and (min-width: 799px) {
+  .Header_renderIfPhone__1lsDL {
+display: none;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/Map/map.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+/* map.module.css */
+
+.map_container__xQjeP {
+margin:0}
+
+.map_map__GWpPd {
+  height: 40vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/Welcome/Welcome.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Welcome_container__ATWR_{
+ background-image: url(/_next/static/media/background1.3a914640.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+
+/* Welcome.module.css */
+
+@keyframes Welcome_slideInLeft__E5fU3 {
+    from {
+      transform: translateX(-30%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes Welcome_slideInRight__ZaOTx {
+    from {
+      transform: translateX(30%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes Welcome_slideInTop__4JNVR {
+    from {
+      transform: translateY(-30%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .Welcome_slideInLeft__E5fU3 {
+    animation: Welcome_slideInLeft__E5fU3 0.7s ease-out;
+  }
+  
+  .Welcome_slideInRight__ZaOTx {
+    animation: Welcome_slideInRight__ZaOTx 0.7s ease-out;
+  }
+  
+  .Welcome_slideInTop__4JNVR {
+    animation: Welcome_slideInTop__4JNVR 0.7s ease-out;
+
+    margin-bottom: 2rem;
+  }
+
+  .Welcome_center__zMjYN{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+ 
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/Price/Price.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Price_container__jLwrW{
+    background-color: rgb(39, 39, 39);
+    padding:100px 0;
+
+
+    /* Specify the path to your image using the relative path from the CSS file */
+    background-image: url(/_next/static/media/background1.4a190db6.jpg);
+    /* Set background properties to cover the entire body */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    /* Optionally, you can set a fixed background attachment */
+    background-attachment: fixed;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/Rules/Rules.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Rules_container__y5O5N{
+   
+    background-image: url(/_next/static/media/background3.3fa7ece1.jpg);
+    /* Set background properties to cover the entire body */
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+  
+    /* Optionally, you can set a fixed background attachment */
+    background-attachment: fixed;
+    padding: 300px 0px  ;
+}
