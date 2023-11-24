@@ -1,1 +1,0 @@
-exports.id=494,exports.ids=[494],exports.modules={44494:(e,s,o)=>{let{createProxy:r}=o(95153);e.exports=r("C:\\Users\\user\\Desktop\\repos\\golos\\node_modules\\@mui\\material\\Grid\\index.js")}};
